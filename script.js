@@ -2418,7 +2418,7 @@ async function startAdaptiveQuiz(subject, topic) {
     try {
 
         const response = await fetch(
-            "http://127.0.0.1:5000/api/adaptive-quiz",
+            "/api/adaptive-quiz",
             {
                 method: "POST",
                 headers: {
